@@ -47,3 +47,7 @@ install:
   # https://github.com/vim/vim-win32-installer/blob/master/appveyor.yml
   - git checkout master
   - "%APPVEYOR_BUILD_FOLDER%/ci/appveyor-install.bat"
+
+build_script:
+
+  - echo "Sasha Goddess!"
