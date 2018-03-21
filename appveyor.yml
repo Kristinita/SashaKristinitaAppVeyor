@@ -21,7 +21,6 @@ init:
   # That script run for “master” branch, not for “HEAD”;
   # Needs, that “grunt-checkbranch” works correct:
   # https://stackoverflow.com/a/18866140/5951529
-  - git checkout master
 
 environment:
 
@@ -46,4 +45,5 @@ install:
   # https://ci.appveyor.com/project/Kristinita/sashapelicantest/build/1.0.31
   # Project folder:
   # https://github.com/vim/vim-win32-installer/blob/master/appveyor.yml
+  - git checkout master
   - "%APPVEYOR_BUILD_FOLDER%/ci/appveyor-install.bat"
