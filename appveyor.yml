@@ -14,7 +14,7 @@ platform: x64
 
 install:
 
-  - pip install --upgrade pip
+  - python -m pip install -U pip
 
 build_script:
 
