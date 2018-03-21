@@ -46,7 +46,7 @@ install:
   # Project folder:
   # https://github.com/vim/vim-win32-installer/blob/master/appveyor.yml
   - git checkout master
-  - "%APPVEYOR_BUILD_FOLDER%/ci/appveyor-install.bat"
+  - pip install --upgrade pip
 
 build_script:
 
