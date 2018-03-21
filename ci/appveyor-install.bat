@@ -1,7 +1,7 @@
 @REM @Author: Kristinita
 @REM @Date:   2018-02-28 19:42:16
 @REM @Last Modified by:   Kristinita
-@REM Modified time: 2018-03-21 14:51:58
+@REM Modified time: 2018-03-21 14:58:47
 @REM Parallel pip and npm commands.
 @REM Use REM comments:
 @REM https://stackoverflow.com/a/12407934/5951529
@@ -16,4 +16,3 @@
 @REM https://github.com/majkinetor/au-packages/issues/75
 @REM https://ci.appveyor.com/project/Kristinita/sashatidydebugging/build/1.0.12
 START /B CMD /C "pip install --upgrade pip"
-START /B CMD /C "choco install nodejs -y"
